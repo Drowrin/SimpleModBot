@@ -2,7 +2,7 @@
 
 **Setup**:
 
-1. Install Python 3 (if you don't already have it)
+1. Install Python 3.5 or higher (if you don't already have it)
 
 2. Install discord.py from https://github.com/Rapptz/discord.py
 
