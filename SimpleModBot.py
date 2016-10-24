@@ -1,5 +1,10 @@
 import json
-import discord
+try:
+    import discord
+except ImportError:
+    import pip
+    pip.main(['install', 'discord'])
+    import discord
 
 try:
     with open('config.json') as f:
